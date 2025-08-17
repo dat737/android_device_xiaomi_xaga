@@ -63,6 +63,7 @@ PRODUCT_PACKAGES += \
     init.project.rc \
     pandora.rc \
     zram.rc \
+    bypass_chg.rc \
     init.xaga.rc
 
 # Shipping API Level
