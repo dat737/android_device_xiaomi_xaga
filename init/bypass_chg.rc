@@ -1,0 +1,5 @@
+on property:sys.boot_completed=1 && property:persist.sys.battery_bypass_supported=true && property:persist.sys.battery_health_bypass_enabled=true
+    write /proc/mtk_battery_cmd/current_cmd "0 1"
+
+on property:sys.boot_completed=1 && property:persist.sys.battery_bypass_supported=true && property:persist.sys.battery_health_bypass_enabled=false
+    write /proc/mtk_battery_cmd/current_cmd "0 0"
