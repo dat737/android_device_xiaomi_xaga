@@ -32,3 +32,10 @@ prebuilt_etc {
     sub_dir: "init",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "bypass_chg.rc",
+    src: "bypass_chg.rc",
+    sub_dir: "init",
+    vendor: false,
+}
