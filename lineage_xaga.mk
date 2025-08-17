@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/xaga/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2460
@@ -27,7 +27,7 @@ PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := xaga
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 22041216C
-PRODUCT_NAME := lineage_xaga
+PRODUCT_NAME := infinity_xaga
 PRODUCT_SYSTEM_NAME := xaga
 
 PRODUCT_CHARACTERISTICS := nosdcard
@@ -36,3 +36,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=Redmi/xaga/xaga:12/SP1A.210812.016/OS2.0.7.0.ULOCNXM:user/release-keys \
     DeviceProduct=xaga
+#infinity flag 
+INFINITY_MAINTAINER := Pandora
+WITH_GAPPS := true
