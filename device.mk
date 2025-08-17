@@ -79,3 +79,5 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/xaga/xaga-vendor.mk)
+#viper
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
