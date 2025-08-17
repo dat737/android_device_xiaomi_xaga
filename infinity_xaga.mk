@@ -39,3 +39,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 #infinity flag 
 INFINITY_MAINTAINER := Pandora
 WITH_GAPPS := true
+#bypass
+BYPASS_CHARGE_SUPPORTED := true
