@@ -23,14 +23,14 @@ prebuilt_etc {
     name: "pandora.rc",
     src: "pandora.rc",
     sub_dir: "init",
-    vendor: true,
+    vendor: false,
 }
 
 prebuilt_etc {
     name: "zram.rc",
     src: "zram.rc",
     sub_dir: "init",
-    vendor: true,
+    vendor: false,
 }
 
 prebuilt_etc {
